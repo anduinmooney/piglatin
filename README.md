@@ -1,67 +1,43 @@
-# _{Application Name}_
+# _Pig Latin Converter_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This application will take a sentence from a user and convert it to pig-latin_
 
-#### By _**{List of contributors}**_
+#### By _**Anduin**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This application will take the input from a user, and convert it completely to pig-latin._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Clone repository_
+* _Launch index.html_
 
 
-## Behaviors
-_The program will read user input from a text box.
-Example input: Hello
-Example output: none
-
-The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.
-Example Input: 3
-Example Output: 3
-
-The program adds way to words beginning with a vowel
-Example input: Atom
-Example output: Atomway
-
-The program moves all of the first consonants to the end and adds ay with words beginning with one or more consonants.
-Example input: program
-Example output: ogrampray
-
-The program moves all of the first consecutive consonants and adds "ay" to the end with words including "qu" in their beginning consonants.
-Example input: quad
-Example output: adquay
-
-The program will read the difference between uppercase and lowercase letters and apply them accordingly in Piglatin.
-Example input: qUaD
-Example output: aDqUay
-
-The program will convert user input into Piglatin.
-Example input: Hello
-Example output: elloHay
+## Specifications
+| Behavior        | input          | output  |
+| ------------- |:-------------:| -----:|
+| The program will read user input from a text box | Hello | Hello |
+| The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels. | 3 | 3 |
+| The program adds way to words beginning with a vowel | Atom | Atomway |
+| The program moves all of the first consonants to the end and adds ay with words beginning with one or more consonants. | program | ogrampray |
+| The program moves all of the first consecutive consonants and adds "ay" to the end with words including "qu" in their beginning consonants. | quad | adquay |
+| The program will read the difference between uppercase and lowercase letters and apply them accordingly in Piglatin. | qUaD | aDqUay |
+| The program adds way to words beginning with a vowel | Atom | Atomway |
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_There are no known bugs._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_If you have any thoughts or concerns, or would just like to get into contact with me, you can reach me at anduinmooney@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_Atom, Chrome, Bootstrap, JQuery_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2018 **_Anduin Mooney_**
